@@ -1,0 +1,61 @@
+body{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-color: hsl(225, 100%, 98%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.card-landingpage__container{
+    width: 300px;
+    height:fit-content;
+    font-family: "Red Hat Display";
+    background: white;
+    border-radius: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    align: center;
+    font-weight: bolder;
+    color:darkblue: hsl(223, 47%, 23%);
+}
+
+p{
+    color: hsl(224, 23%, 55%);
+}
+.price-tag__info {
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px;
+}
+
+.proceed-payment__button{
+    display:block;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    margin: 15px;
+    width: 280px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.plan-title__text{
+    display:inline-block
+}
+
+.price-plan__tag{
+    display:inline-block
+}
+
+.modify-plan__action{
+    display: inline-block;
+}
+
+.change-order-action__acron{
+    color: hsl(225, 100%, 98%);
+}

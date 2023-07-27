@@ -3,15 +3,13 @@
     background:rgb(63, 60, 60);
     background-size: auto;
     background-position:center;
-    font-family: "BentonSans Black";
+    font-family: "Arial Black";
     text-align: center;
     text-shadow: 2px 2px rgb(61, 57, 57);
 }
 
 .plan__card{
     display:inline-block;
-    width: 250px;
-    height: 430px;
     border-radius: 15px;
     padding:50px;
     color:white;
@@ -20,14 +18,20 @@
 
 .plan__card--blue{
     background: linear-gradient(to Right,rgb(23, 96, 197),rgb(13, 186, 244));
+    width: 250px;
+    height: 430px;
 }
 
 .plan__card--red{
     background: linear-gradient(to Right,red,rgb(247, 137, 127));
+    width: 250px;
+    height: 460px;
 }
 
 .plan__card--green{
     background: linear-gradient(to Right,rgb(182, 246, 20),rgb(37, 192, 89));
+    width: 250px;
+    height: 430px;
 }
 
 /*.plan__title{
@@ -37,7 +41,7 @@
 
 .price-tag__number{
     font-size: 100px;
-    margin-top: 40px;
+    margin-top: 15px;
     margin-bottom: 20px;
 }
 
@@ -51,4 +55,50 @@
 
 .plan-description__title > .middle-line-description__title, .plan__text, .middle-line-description__title--left, .middle-line-description__title--right{
     display:inline-block;
+}
+
+.plan__text{
+    font-family: "Arial";
+    font-weight: bold;
+    font-size:20px;
+}
+
+.plan-description__text  > .plan-description-text__bullets{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.position-middle-line-left{
+    position: relative;
+    left: -10px;
+}
+
+.position-middle-line-right{
+    position: relative;
+    left: 10px;
+}
+
+.subscribe__banner{
+    color: rgb(52, 48, 48);
+    width: 200px;
+    margin: 2px;
+    padding: 5px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    text-shadow: none;
+    background: white;
+    text-align: center;
+
+}
+
+.position-subscribe__banner--middle{
+    position:relative;
+    top: 65px;
+    left: 88px;
+}
+
+.position-subscribe__banner{
+    position:relative;
+    top: 35px;
+    left: 88px;
 }

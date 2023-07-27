@@ -1,6 +1,9 @@
+body{
+    background:rgb(63, 60, 60);
+}
 
 .plans__container{
-    background:rgb(63, 60, 60);
+    margin: 20px;
     background-size: auto;
     background-position:center;
     font-family: "Arial Black";
@@ -97,8 +100,19 @@
     left: 88px;
 }
 
+.animation-subscribe__banner--middle{
+    width:250px;
+}
+
 .position-subscribe__banner{
     position:relative;
     top: 35px;
     left: 88px;
+}
+
+.animation__card:hover{
+    cursor:pointer;
+    animation-name: grow;
+    animation-duration: 2s;
+    transform: scale(1.05, 1.05);
 }

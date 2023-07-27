@@ -1,0 +1,54 @@
+
+.plans__container{
+    background:rgb(63, 60, 60);
+    background-size: auto;
+    background-position:center;
+    font-family: "BentonSans Black";
+    text-align: center;
+    text-shadow: 2px 2px rgb(61, 57, 57);
+}
+
+.plan__card{
+    display:inline-block;
+    width: 250px;
+    height: 430px;
+    border-radius: 15px;
+    padding:50px;
+    color:white;
+    margin:10px;
+}
+
+.plan__card--blue{
+    background: linear-gradient(to Right,rgb(23, 96, 197),rgb(13, 186, 244));
+}
+
+.plan__card--red{
+    background: linear-gradient(to Right,red,rgb(247, 137, 127));
+}
+
+.plan__card--green{
+    background: linear-gradient(to Right,rgb(182, 246, 20),rgb(37, 192, 89));
+}
+
+/*.plan__title{
+    padding-top: 15px;
+    padding-bottom: -10px;
+}*/
+
+.price-tag__number{
+    font-size: 100px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.money-sign__icon{
+    font-size: 20px;
+}
+
+.price__text > .money-sign__icon, .price-tag__number{
+    display:inline-block;
+}
+
+.plan-description__title > .middle-line-description__title, .plan__text, .middle-line-description__title--left, .middle-line-description__title--right{
+    display:inline-block;
+}

@@ -106,26 +106,6 @@ body{
     left: 88px;
 }
 
-/*.animation-subscribe__banner{
-    width: 340px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-}
-
-.animation-position-subscribe__banner--middle{
-    position:relative;
-    top: 65px;
-    left: -52px;
-}
-
-.animation-position-subscribe__banner{
-    position:relative;
-    top: 35px;
-    left: -52px;
-}
-*/
 .animation-position-middle-line-left{
     position: relative;
     left: -4px;
@@ -145,20 +125,8 @@ body{
 }
 
 
-./*animation-midle-line__leftnright:hover{
-    cursor: pointer;
-    transform: scale(1.02, 1.02);
-}
-
-@keyframes grow{
-    transform-origin: center 5%;
-}
-
-*/
-
-.plan__card:hover .position-subscribe__banner--middle {
-    position:relative;
-    top: 65px;
+.plan__card:hover .position-subscribe__banner--middle{
+    top:65px;
     left: -52px;
     width: 340px;
     border-bottom-right-radius: 15px;
@@ -168,7 +136,10 @@ body{
 }
 
 .plan__card:hover .position-subscribe__banner {
-    position:relative;
+    /*animation-name: grow-banner;
+    animation-play-state: running;
+    animation-duration: 2s;*/
+    
     top: 65px;
     left: -52px;
     width: 340px;
@@ -185,3 +156,24 @@ body{
 .plan__card:hover .middle-line-description__title  {
     transform: scaleX(2);
 }
+
+/*@keyframe grow-banner{
+    from{
+        top: 35px;
+        left: -88px;
+        width: 200px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 15px;
+    }
+    to{
+        top: 65px;
+        left: -52px;
+        width: 340px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+}*/

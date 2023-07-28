@@ -100,19 +100,88 @@ body{
     left: 88px;
 }
 
-.animation-subscribe__banner--middle{
-    width:250px;
-}
-
 .position-subscribe__banner{
     position:relative;
     top: 35px;
     left: 88px;
 }
 
-.animation__card:hover{
+/*.animation-subscribe__banner{
+    width: 340px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.animation-position-subscribe__banner--middle{
+    position:relative;
+    top: 65px;
+    left: -52px;
+}
+
+.animation-position-subscribe__banner{
+    position:relative;
+    top: 35px;
+    left: -52px;
+}
+*/
+.animation-position-middle-line-left{
+    position: relative;
+    left: -4px;
+}
+
+.animation-position-middle-line-right{
+    position: relative;
+    left: 4px;
+}
+
+
+.animation__card:hover  {
     cursor:pointer;
-    animation-name: grow;
-    animation-duration: 2s;
+    /*animation-name: grow;
+    animation-duration: 2s;*/
     transform: scale(1.05, 1.05);
+}
+
+
+./*animation-midle-line__leftnright:hover{
+    cursor: pointer;
+    transform: scale(1.02, 1.02);
+}
+
+@keyframes grow{
+    transform-origin: center 5%;
+}
+
+*/
+
+.plan__card:hover .position-subscribe__banner--middle {
+    position:relative;
+    top: 65px;
+    left: -52px;
+    width: 340px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.plan__card:hover .position-subscribe__banner {
+    position:relative;
+    top: 65px;
+    left: -52px;
+    width: 340px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.plan__card:hover .middle-line-description__title  {
+    transform: scaleX(2);
+}
+
+.plan__card:hover .middle-line-description__title  {
+    transform: scaleX(2);
 }
